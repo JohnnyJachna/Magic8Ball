@@ -24,19 +24,19 @@ document.addEventListener("DOMContentLoaded", function () {
             shakeButton.disabled = false;
             shakeButton.style.color="rgb(90, 123, 255)";
         }
-    })
+    });
 
     // Button mouseover
     shakeButton.addEventListener("mouseover", function() {
         if (!shakeButton.disabled) {
             shakeButton.style.borderColor="rgb(90, 123, 255)";
         }
-    })
+    });
     shakeButton.addEventListener("mouseout", function() {
         if (!shakeButton.disabled) {
             shakeButton.style.borderColor="rgb(175, 175, 175)";
         }
-    })
+    });
     
     // Answer display
     shakeButton.addEventListener("click", function() {
@@ -61,5 +61,5 @@ document.addEventListener("DOMContentLoaded", function () {
         shakeButton.style.color="white"; 
         document.querySelector("p").innerText = "";
         restartButton.style.display = "none";
-    })
+    });
 }); 
