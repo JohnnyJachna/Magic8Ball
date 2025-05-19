@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     // Enable button
     questionText.addEventListener("input", function() {
-        if (questionText.value.length == 0) {
+        if (questionText.value.length === 0) {
             console.log("Button Disabled");
             shakeButton.disabled = true;
             shakeButton.style.color="white"; 
