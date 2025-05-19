@@ -28,9 +28,6 @@ input[type=text]:focus {
 }
 
 button {
-  /* color: rgb(0, 0, 0); */
-  /* background-color: white; */
-  /* background-color: rgb(30, 0, 140); */
   color: white;
   background-color: rgb(20, 20, 20);
   border: 2px solid rgb(175, 175, 175);
